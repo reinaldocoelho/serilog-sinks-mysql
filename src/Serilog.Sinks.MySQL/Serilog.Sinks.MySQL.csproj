@@ -15,7 +15,10 @@
 	  <Version>2.7.5</Version>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>Serilog.snk</AssemblyOriginatorKeyFile>
-    <TargetFrameworks>net451</TargetFrameworks>	
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />	
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(VersionSuffix)'!='' ">
@@ -23,15 +26,10 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="6.9.9" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
-    <PackageReference Include="Serilog" Version="2.4.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.8-dmr" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Serilog" Version="2.5.0" />
     <PackageReference Include="System.Data.Common" Version="4.3.0" />
-  </ItemGroup>
-
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
-    <Reference Include="System" />
-    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
 
   <ItemGroup>
