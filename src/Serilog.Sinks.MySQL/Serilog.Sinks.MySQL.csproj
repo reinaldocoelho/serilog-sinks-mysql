@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyTitle>Serilog.Sinks.MySQL</AssemblyTitle>
-    <Authors>Saleem Mirza</Authors>
-    <AssemblyName>Serilog.Sinks.MySQL</AssemblyName>
+    <AssemblyTitle>Serilog.Sinks.MySQL.NetCore2</AssemblyTitle>
+    <Authors>Saleem Mirza/Reinaldo Coelho</Authors>
+    <AssemblyName>Serilog.Sinks.MySQL.NetCore2</AssemblyName>
     <Description>Serilog event sink that writes to MySQL database</Description>	
-    <PackageId>Serilog.Sinks.MySQL</PackageId>
+    <PackageId>Serilog.Sinks.MySQL.NetCore2</PackageId>
     <PackageTags>serilog;logging;MySQL</PackageTags>
     <PackageIconUrl>http://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
     <PackageProjectUrl>http://serilog.net</PackageProjectUrl>
@@ -14,7 +14,6 @@
     <AssemblyVersion>2.7.5.0</AssemblyVersion>	
 	  <Version>2.7.5</Version>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>Serilog.snk</AssemblyOriginatorKeyFile>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <ApplicationIcon />
     <OutputType>Library</OutputType>
